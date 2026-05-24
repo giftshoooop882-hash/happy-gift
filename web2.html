@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>برزنتيشن عيد الأضحى 2026 الفخم 🐑✨</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark-indigo: #0f0d1e; 
+            --primary-neon: #6e00ff;   
+            --mint-cyan: #00f5d4;      
+            --coral-pink: #ff007f;     
+            --creamy-white: #f8f9fa;
+        }
+
+        /* تفعيل التنقل السلس والمتوافق مع جميع الأجهزة */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg-dark-indigo);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            overflow-x: hidden;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        /* إخفاء شريط التمرير الجانبي */
+        ::-webkit-scrollbar {
+            width: 0px;
+            background: transparent;
+        }
+
+        /* شاشة الدخول المبهجة */
+        #welcome-screen {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle, var(--primary-neon), var(--bg-dark-indigo));
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            z-index: 9999;
+            transition: all 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+        }
+
+        .welcome-sheep-king {
+            font-size: 110px;
+            animation: superBounce 0.8s infinite alternate ease-in-out;
+        }
+
+        @keyframes superBounce {
+            0% { transform: translateY(0) scale(1) rotate(-5deg); }
+            100% { transform: translateY(-30px) scale(1.12) rotate(5deg); }
+        }
+
+        .btn-mega {
+            background: var(--mint-cyan);
+            color: var(--bg-dark-indigo);
+            border: 4px solid #fff;
+            padding: 16px 45px;
+            font-size: 24px;
+            font-weight: 900;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 8px 0px var(--coral-pink);
+            transition: 0.1s;
+            font-family: 'El Messiri', sans-serif;
+            margin-top: 35px;
+        }
+        .btn-mega:active {
+            transform: translateY(6px);
+            box-shadow: 0 2px 0px var(--coral-pink);
+        }
+
+        /* الحاوية الكبيرة للمحتوى */
+        .main-container {
+            display: none;
+            width: 100%;
+            opacity: 0;
+            transition: opacity 0.8s ease;
+            position: relative;
+            z-index: 5;
+        }
+
+        /* تنسيق الصفحات المتتالية بدقة وثبات */
+        .eid-section {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px 100px 20px;
+            box-sizing: border-box;
+            position: relative;
+            background: radial-gradient(circle at center, #171430 0%, var(--bg-dark-indigo) 100%);
+            overflow: hidden;
+        }
+
+        /* لوجو الخروف الشيك المودرن */
+        .section-header-sheep {
+            font-size: 80px;
+            animation: sheepDanceMode 0.6s infinite alternate ease-in-out;
+            color: var(--mint-cyan);
+            filter: drop-shadow(0 0 10px var(--primary-neon));
+            margin-bottom: 10px;
+            z-index: 10;
+        }
+
+        @keyframes sheepDanceMode {
+            0% { transform: scale(1) rotate(-8deg); }
+            100% { transform: scale(1.1) rotate(8deg); }
+        }
+
+        /* الكروت الكبيرة الفخمة */
+        .mega-fabulous-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(15px);
+            border: 4px solid var(--mint-cyan);
+            border-radius: 40px;
+            padding: 50px 40px;
+            text-align: center;
+            box-shadow: 12px 12px 0px var(--primary-neon);
+            width: 100%;
+            max-width: 850px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .main-title {
+            font-family: 'El Messiri', sans-serif;
+            font-size: 50px;
+            color: var(--creamy-white);
+            margin: 0;
+            text-shadow: 3px 3px 0px var(--primary-neon);
+        }
+
+        .love-name {
+            font-size: 40px;
+            color: var(--mint-cyan);
+            font-weight: 900;
+            display: block;
+            margin: 10px 0;
+            text-shadow: 2px 2px 0 var(--primary-neon);
+        }
+
+        /* 📸 خانة الصورة */
+        .image-holder-container {
+            width: 220px;
+            height: 220px;
+            margin: 25px auto;
+            border: 4px solid var(--creamy-white);
+            border-radius: 25px;
+            box-shadow: 0 0 20px var(--primary-neon), 6px 6px 0 var(--mint-cyan);
+            overflow: hidden;
+            background: #2b2b48;
+            position: relative;
+            transform: rotate(2deg);
+        }
+        .image-holder-container img {
+            width: 100%; height: 100%; object-fit: cover;
+        }
+        .image-placeholder-text {
+            position: absolute; top: 50%; left: 50%;
+            transform: translate(-50%, -50%); color: #aaa;
+            font-size: 13px; font-weight: bold; text-align: center;
+        }
+
+        .large-text {
+            font-size: 19px;
+            color: var(--creamy-white);
+            font-weight: bold;
+            line-height: 1.9;
+            margin-top: 20px;
+        }
+
+        /* عداد الفتة */
+        .fatta-timer-big {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 35px;
+        }
+        .timer-plate {
+            background: rgba(255, 255, 255, 0.95);
+            border: 3px solid var(--bg-dark-indigo);
+            padding: 15px 25px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 0 var(--mint-cyan);
+            min-width: 80px;
+        }
+        .timer-plate:nth-child(even) { box-shadow: 5px 5px 0 var(--coral-pink); }
+        .plate-num { font-size: 36px; font-weight: 900; color: var(--bg-dark-indigo); display: block; }
+        .plate-lbl { font-size: 14px; font-weight: 900; color: #555; }
+
+        /* كروت الرسايل */
+        .sticker-card-premium {
+            background: white;
+            border: 4px solid var(--bg-dark-indigo);
+            border-radius: 25px;
+            padding: 25px;
+            width: 100%;
+            max-width: 380px;
+            box-shadow: 8px 8px 0px var(--bg-dark-indigo);
+            margin: 15px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            z-index: 10;
+        }
+        .sticker-card-premium:hover {
+            transform: scale(1.05) translateY(-10px);
+            box-shadow: 12px 12px 0px var(--mint-cyan);
+            border-color: var(--primary-neon);
+        }
+
+        .p-pos-1 { background-color: #fceade; transform: rotate(-3deg); }
+        .p-pos-2 { background-color: #e3f2fd; transform: rotate(2deg); }
+        .p-pos-3 { background-color: #eafaf1; transform: rotate(-2deg); }
+        .p-pos-4 { background-color: #fef5d1; transform: rotate(3deg); }
+
+        .card-headline {
+            font-weight: 900; font-size: 19px; color: var(--primary-neon);
+            border-bottom: 3px dashed var(--coral-pink);
+            padding-bottom: 6px; margin-bottom: 12px;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .card-paragraph { font-size: 15px; line-height: 1.8; color: var(--bg-dark-indigo); font-weight: 700; margin: 0; }
+
+        /* أشكال عشوائية مبهجة في الخلفية */
+        .bg-deco-sheep {
+            position: absolute;
+            font-size: 40px;
+            opacity: 0.15;
+            pointer-events: none;
+            animation: floatingDeco 4s infinite ease-in-out alternate;
+        }
+        @keyframes floatingDeco {
+            0% { transform: translateY(0) rotate(0deg); }
+            100% { transform: translateY(-20px) rotate(15deg); }
+        }
+
+        /* أزرار التنقل */
+        .next-section-btn {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--mint-cyan);
+            border: 3px solid #fff;
+            color: var(--bg-dark-indigo);
+            font-size: 26px;
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 245, 212, 0.4);
+            font-weight: bold;
+            z-index: 99;
+            text-decoration: none;
+        }
+        .next-section-btn:hover {
+            background: var(--coral-pink);
+            color: #fff;
+            transform: translateX(-50%) scale(1.1);
+            box-shadow: 0 5px 20px rgba(255, 0, 127, 0.6);
+        }
+
+        /* مدفع الحفلة */
+        .celebration-particle {
+            position: absolute; font-size: 45px; pointer-events: none;
+            animation: chaoticFall linear forwards; z-index: 20;
+        }
+        @keyframes chaoticFall {
+            0% { transform: translateY(-60px) translateX(0) rotate(0deg); opacity: 1; }
+            50% { transform: translateX(30px) rotate(180deg); }
+            100% { transform: translateY(105vh) translateX(-30px) rotate(360deg); opacity: 0; }
+        }
+
+        @media (max-width: 768px) {
+            .mega-fabulous-card { padding: 35px 20px; width: 92%; }
+            .main-title { font-size: 34px; }
+            .love-name { font-size: 30px; }
+            .fatta-timer-big { gap: 10px; }
+            .timer-plate { min-width: 60px; padding: 10px; }
+            .plate-num { font-size: 28px; }
+            .section-header-sheep { font-size: 60px; }
+            .sticker-card-premium { max-width: 92% !important; transform: rotate(1deg) !important; margin: 10px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <audio id="eid-song" src="aud1.mpeg" loop></audio>
+
+    <div id="welcome-screen">
+        <div class="welcome-sheep-king">🐑👑</div>
+        <h1 style="color: white; font-size: 34px; font-family: 'El Messiri', sans-serif; text-align: center; padding: 0 20px; margin-top: 15px;">أهلاً أهلاً يا عيد.. فجر العيدية والمزيكا!</h1>
+        <button class="btn-mega" onclick="launchFestival()">اضغط هنا وانطلق! 🚀</button>
+    </div>
+
+    <div class="main-container" id="mega-universe">
+        
+        <section class="eid-section" id="page-1">
+            <div class="bg-deco-sheep" style="top: 15%; right: 10%; animation-delay: 0s;">🐑</div>
+            <div class="bg-deco-sheep" style="top: 20%; left: 8%; animation-delay: 1s;">🎈</div>
+            <div class="bg-deco-sheep" style="bottom: 15%; right: 5%; animation-delay: 0.5s;">✨</div>
+            <div class="bg-deco-sheep" style="bottom: 25%; left: 12%; animation-delay: 1.5s;">🐏</div>
+
+            <div class="section-header-sheep">🐑✨</div>
+            <div class="mega-fabulous-card">
+                <h1 class="main-title">عيد أضحى مبارك وسعيد</h1>
+                <span class="love-name">يا حتة من قلبي ❤️</span>
+                
+                <div class="image-holder-container">
+                    <div class="image-placeholder-text">🖼️ حط صورة الذكرى هنا<br>(غير الـ src في الكود)</div>
+                </div>
+
+                <p class="large-text">
+                    كل سنة وأنتِ منورة دنيتي، العيد معاكي ليه طعم تاني خالص مبهج وفرفوش زي أغنية العيد دي! جهزي نفسك لأحلى أيام فرفشة وضحك وخروجات سوا! 🐑🎈
+                </p>
+            </div>
+            <button class="next-section-btn" onclick="scrollToPage('page-2')">▼</button>
+        </section>
+
+        <section class="eid-section" id="page-2">
+            <div class="bg-deco-sheep" style="top: 10%; left: 15%;">🥩</div>
+            <div class="bg-deco-sheep" style="bottom: 20%; right: 15%;">🎉</div>
+            <div class="bg-deco-sheep" style="top: 40%; right: 8%;">🐑</div>
+
+            <div class="section-header-sheep">🥩⏱️</div>
+            <div class="mega-fabulous-card" style="max-width:700px;">
+                <h1 class="main-title" style="font-size:42px;">الوقت المتبقي على الفتة واللحمة</h1>
+                <div class="fatta-timer-big">
+                    <div class="timer-plate"><span class="plate-num" id="d-box">00</span><span class="plate-lbl">أيام</span></div>
+                    <div class="timer-plate"><span class="plate-num" id="h-box">00</span><span class="plate-lbl">ساعات</span></div>
+                    <div class="timer-plate"><span class="plate-num" id="m-box">00</span><span class="plate-lbl">دقائق</span></div>
+                </div>
+            </div>
+            <button class="next-section-btn" onclick="scrollToPage('page-3')">▼</button>
+        </section>
+
+        <section class="eid-section" id="page-3">
+            <div class="bg-deco-sheep" style="top: 15%; right: 12%;">💖</div>
+            <div class="bg-deco-sheep" style="bottom: 15%; left: 10%;">🐏</div>
+
+            <div class="section-header-sheep">💌💬</div>
+            <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; width:100%; max-width:1000px;">
+                <div class="sticker-card-premium p-pos-1">
+                    <div class="card-headline">🐑 حقيقة اللحمة:</div>
+                    <p class="card-paragraph">بيقولك الخروف الكيوت بيبان من مشيته، وأنا الصراحة من أول يوم شوفتك فيه عرفت إن وجودك في حياتي هو أحلى وأغلى عيدية!</p>
+                </div>
+                <div class="sticker-card-premium p-pos-2">
+                    <div class="card-headline">📊 إحصائيات الحب:</div>
+                    <p class="card-paragraph">تم التأكيد رسمياً: غلاوتك في قلبي عدت نسبة الدهون في صينية الرقاق باللحمة المفرومة! يعني مفيش منافسة السنادي. 😂</p>
+                </div>
+            </div>
+            <button class="next-section-btn" onclick="scrollToPage('page-4')">▼</button>
+        </section>
+
+        <section class="eid-section" id="page-4">
+            <div class="bg-deco-sheep" style="top: 25%; left: 5%;">✨</div>
+            <div class="bg-deco-sheep" style="bottom: 35%; right: 8%;">🐑</div>
+
+            <div class="section-header-sheep">🗺️ سند و عهد</div>
+            <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; width:100%; max-width:1000px; margin-bottom:40px;">
+                <div class="sticker-card-premium p-pos-3">
+                    <div class="card-headline">🗺️ خطة الأيام:</div>
+                    <p class="card-paragraph">الخطة كالآتي: أول يوم نوم وفتة، تاني يوم خروجة وفسحة ولف في الشوارع، وتالت يوم نعد العيدية سوا وناكل لحمة تاني! 🥩🤝</p>
+                </div>
+                <div class="sticker-card-premium p-pos-4">
+                    <div class="card-headline">🔒 عهد العيد:</div>
+                    <p class="card-paragraph">في الأيام المبروكة دي، بوعدك نفضل دايماً سوا وسند لبعض في كل كود وبروجكت وفي كل لحظة فرفشة وضحك. عيد سعيد عليكي يا روحي! ❤️</p>
+                </div>
+            </div>
+            <h1 class="main-title" style="font-size:36px; color:var(--mint-cyan); text-shadow:none; text-align:center;">و كل عيد و إحنا مع بعض! 🎉</h1>
+        </section>
+
+    </div>
+
+    <script>
+        function launchFestival() {
+            const song = document.getElementById('eid-song');
+            song.play().catch(error => console.log("تحتاج لتفاعل لتشغيل الصوت:", error));
+
+            const screen = document.getElementById('welcome-screen');
+            screen.style.transform = 'translateY(-100vh)';
+            screen.style.opacity = '0';
+            setTimeout(() => screen.style.display = 'none', 600);
+
+            const universe = document.getElementById('mega-universe');
+            universe.style.display = 'block';
+            setTimeout(() => universe.style.opacity = '1', 50);
+
+            setInterval(fireCelebrationGun, 200);
+        }
+
+        function scrollToPage(pageId) {
+            const targetElement = document.getElementById(pageId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ 
+                    behavior: 'smooth', 
+                    block: 'start' 
+                });
+            }
+        }
+
+        function fireCelebrationGun() {
+            const elementsPool = ['🐑', '🐏', '🎈', '🎉', '❤️', '🥩', '✨'];
+            const randomItem = elementsPool[Math.floor(Math.random() * elementsPool.length)];
+            
+            const item = document.createElement('div');
+            item.classList.add('celebration-particle');
+            item.innerText = randomItem;
+            
+            item.style.left = Math.random() * 100 + 'vw';
+            item.style.animationDuration = (Math.random() * 3 + 2.5) + 's';
+            item.style.fontSize = (Math.random() * 20 + 25) + 'px';
+            
+            document.body.appendChild(item);
+            setTimeout(() => { item.remove(); }, 5500);
+        }
+
+        // العداد التنازلي التمام المظبوط على تاريخ 27 مايو 2026
+        const exactTargetDate = new Date('May 27, 2026 00:00:00').getTime();
+        
+        setInterval(() => {
+            const now = new Date().getTime();
+            const diff = exactTargetDate - now;
+            
+            if (diff < 0) {
+                document.querySelector('.fatta-timer-big').innerHTML = "<h1 style='color:var(--mint-cyan); font-family:El Messiri;'>العيد جه والفتة طقطقت! 🥩🎉</h1>";
+                return;
+            }
+
+            const d = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+
+            document.getElementById('d-box').innerText = d < 10 ? '0' + d : d;
+            document.getElementById('h-box').innerText = h < 10 ? '0' + h : h;
+            document.getElementById('m-box').innerText = m < 10 ? '0' + m : m;
+        }, 1000);
+    </script>
+</body>
+</html>
